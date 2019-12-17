@@ -1,0 +1,5 @@
+plt.figure(figsize=(20,10))
+sns.set(font_scale=1.0)
+sns.countplot(x="year",data=df)
+plt.ylabel('Number of Earthquakes')
+plt.xlabel('Number of Earthquakes in each year')
